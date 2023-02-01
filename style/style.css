@@ -42,7 +42,7 @@ header{
 }
 footer{
     background-color: rgb(85, 85, 85);
-    height: 260px;
+    padding: 40px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -51,7 +51,7 @@ footer{
     justify-content: center;
 }
 #face{
-    width: 150px;
+    width: 160px;
     margin-right: 15px;
 }
 
@@ -82,4 +82,18 @@ select{
     background-repeat: no-repeat;
 
     background-position: calc(100% - 10px);
+}
+
+.info-pal{
+    max-width: 40%;
+    color: white;
+    display: inline-block;
+    margin-left: 40px;
+    text-align: left;
+}
+.info-pal p, .info-pal h3{
+    margin-bottom: 20px;
+}
+.info-pal h3{
+    font-size: 26px;
 }
